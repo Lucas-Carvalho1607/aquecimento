@@ -1,0 +1,90 @@
+body {
+    height: 100vh;
+}
+
+
+.container_principal{
+    display: flex;
+    width: 100%;
+    max-width: 50%; 
+    height: 90vh;
+    margin: auto;
+}
+.simulado {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 100%;
+    background-color: #c358ed;
+    margin-right: 15px;
+}
+.simulado h2 {
+    font-size: 40px;
+    margin-left: 15px ;
+    color:white;
+    margin-bottom: 5px;
+
+}
+.simulado h3{
+margin-left: 15px;
+color: white;
+margin-top: 5px;
+}
+
+.container_um_dois {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+
+    
+}
+h1 {
+   text-align: end;
+   margin-right: 15px;
+}
+.container_numeros{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: white;
+}
+.um {
+    width: 30%;
+    height: 15vh;
+    background-color: #70d9b8;
+    
+
+}
+.dois {
+    width: 70%;
+    height: 15vh;
+    background-color:#2eb2ff;
+    
+
+}
+
+.container_tres_quatro {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+}
+
+.tres {
+    width: 60%;
+    height: 450px;
+    background-color: #44d9e6;
+    
+}
+.quatro {
+    height: 450px;
+    width: 40%;
+    background-color: #ff5c5c;
+}
+
+.cinco {
+    height: 100%;
+    width: 710px;
+    background-color: #ffbd4a;
+    
+
+}
